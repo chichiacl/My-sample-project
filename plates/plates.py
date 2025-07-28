@@ -17,7 +17,7 @@ def two_letter(s):
 
 def number(n):
     index = len(n) # 5
-    return [index].isdigit() # true
+    return n[index].isdigit() # true
 
 
 main()
