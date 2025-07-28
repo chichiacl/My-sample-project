@@ -7,9 +7,7 @@ def main():
 
 
 def is_valid(p):
-    if two_letter(p) == True and 4 <= len(p) <= 6 and number(p) and p.isalnum() :
-        return True
-    else:
+       if 2 <= len(s) > 6:
         return False
 
 def two_letter(s):
