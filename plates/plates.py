@@ -7,8 +7,13 @@ def main():
 
 
 def is_valid(p):
-       if 2 <= len(s) > 6:
+       if 2 <= len(s) > 6: # correct length
         return False
+
+       if s[:2].isalpha(): # first 2 chars letter
+            return True
+        else:
+            return False
 
 
 main()
