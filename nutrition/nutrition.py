@@ -1,2 +1,5 @@
 item = input("Item: ")
-match 
+match item.lower():
+    case "apple":
+        ...
+    case "avocado"
