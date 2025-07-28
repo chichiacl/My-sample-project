@@ -16,7 +16,11 @@ def two_letter(s):
     s[0:2].isalpha()
 
 def number(n):
+    index = len(n) # 5
+    n[index].isdigit() # true
     
+
+
 
 
 
