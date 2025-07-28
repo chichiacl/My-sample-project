@@ -10,9 +10,7 @@ def is_valid(p):
        if 2 <= len(s) > 6: # correct length
         return False
 
-       if s[:2].isalpha(): # first 2 chars letter
-            return True
-        else:
+       if not s[:2].isalpha(): # first 2 chars letter
             return False
 
         if s.isalnum(): # no puncuation
