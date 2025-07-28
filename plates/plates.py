@@ -15,5 +15,10 @@ def is_valid(p):
         else:
             return False
 
+        if s.isalnum(): # no puncuation
+           return True
+        else:
+           return False
+
 
 main()
