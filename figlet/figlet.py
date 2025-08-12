@@ -9,7 +9,7 @@ if len(sys.argv) == 1:
     #zero, choose random font
     s = input("Input: ")
     f = random.choice(font_List)
-    figlet.setFont(font=f)
+    figlet.setFont(font = f)
     print("Output:")
     print(figlet.renderText(s))
 elif len(sys.argv) == 3:
@@ -20,7 +20,9 @@ elif len(sys.argv) == 3:
     if sys.argv[2] not in font_list:
         print("Invalid usage")
         sys.exit
-    
+    figlet.setFont(font = sys.argv[2])
+    print("Output:")
+    print(figlet.renderText(s))
 
 
 """
