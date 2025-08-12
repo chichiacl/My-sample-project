@@ -18,7 +18,7 @@ elif len(sys.argv) == 3:
         sys.exit("Invalid usage")
     if sys.argv[2] not in font_List:
         sys.exit("Invalid usage")
-     s = input("Input: ") # it should be here - VALIDATE before input
+    s = input("Input: ") # it should be here - VALIDATE before input
     figlet.setFont(font = sys.argv[2])
     print("Output:")
     print(figlet.renderText(s))
