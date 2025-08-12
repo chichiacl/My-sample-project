@@ -3,6 +3,6 @@ import inflect
 names = []
 while True:
     try:
-        names += input("Names: ")
+        names.append(input("Names: "))
     except EOFError:
-        ...
+        
