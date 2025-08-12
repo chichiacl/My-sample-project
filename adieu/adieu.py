@@ -2,6 +2,6 @@ import inflect
 
 while True:
     try:
-        names
+        names += input()
     except EOFError:
         ...
