@@ -13,6 +13,7 @@ if len(sys.argv) == 1:
     print("Output:")
     print(figlet.renderText(s))
 elif len(sys.argv) == 3:
+    
     # @ promt user chooses font
 else:
     ...
