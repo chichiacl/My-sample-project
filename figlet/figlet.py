@@ -16,14 +16,12 @@ elif len(sys.argv) == 3:
     # @ promt user chooses font
     s = input("Input: ")
     if sys.argv[1] not in ["-f","--font"] :
-        print("Invalid usage")
-        sys.exit
+        sys.exit("Invalid usage")
     if sys.argv[2] not in font_List:
-        print("Invalid usage")
-        sys.exit
+        sys.exit("Invalid usage")
     figlet.setFont(font = sys.argv[2])
     print("Output:")
     print(figlet.renderText(s))
 else:
-    print("Invalid usage")
+    sys.exit("Invalid usage")
 
