@@ -1,7 +1,8 @@
 import inflect
 
+names = []
 while True:
     try:
-        names += input()
+        names += input("Names: ")
     except EOFError:
         ...
