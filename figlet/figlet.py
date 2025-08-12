@@ -3,10 +3,10 @@ import random
 import sys
 
 figlet = Figlet() # object
-figlet.getFonts() # list of all the fonts
+font_List = figlet.getFonts() # list of all the fonts
 if len(sys.argv) == 1:
     #zero, choose random font
-    font = random.choice()
+    font = random.choice(font_List)
 elif len(sys.argv) == 3:
     # @ promt user chooses font
 else:
