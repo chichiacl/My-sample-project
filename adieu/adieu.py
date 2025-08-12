@@ -6,5 +6,5 @@ while True:
     try:
         names.append(input("Name: "))
     except EOFError:
-        print(f"Adieu, adieu to {p.join((names),sep=",")}")
+        print(f"Adieu, adieu to {p.join((names))}")
         break
