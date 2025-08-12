@@ -5,6 +5,6 @@ while True:
     try:
         names.append(input("Names: "))
     except EOFError:
-        print(f"Adieu, adieu to {inflect.join(names)}")
+        print(f"Adieu, adieu to {p.join(names)}")
         break
-    
+
