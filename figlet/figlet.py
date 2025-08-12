@@ -14,6 +14,7 @@ if len(sys.argv) == 1:
     print(figlet.renderText(s))
 elif len(sys.argv) == 3:
     # @ promt user chooses font
+    s = input("Input: ")
     if (sys.argv[1] != "-f") or (sys.argv[1] != "--font") :
         print("Invalid usage")
         sys.exit
@@ -23,9 +24,6 @@ elif len(sys.argv) == 3:
     figlet.setFont(font = sys.argv[2])
     print("Output:")
     print(figlet.renderText(s))
+else:
+    print("Invalid usage")
 
-
-"""
-figlet.setFont(font=f)
-print(figlet.renderText(s))
-"""
