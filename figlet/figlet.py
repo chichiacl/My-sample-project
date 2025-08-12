@@ -2,7 +2,7 @@ from pyfiglet import Figlet
 import random
 import sys
 
-figlet = Figlet()
+figlet = Figlet() # object
 figlet.getFonts() # list of all the fonts
 """
 figlet.setFont(font=f)
