@@ -15,7 +15,7 @@ if len(sys.argv) == 1:
 elif len(sys.argv) == 3:
     # @ promt user chooses font
     s = input("Input: ")
-    if (sys.argv[1] != "-f") and (sys.argv[1] != "--font") :
+    if sys.argv[1] not in ["-f","--font"] :
         print("Invalid usage")
         sys.exit
     if sys.argv[2] not in font_List:
