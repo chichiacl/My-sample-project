@@ -1,5 +1,7 @@
+import inflect
+
 while True:
     try:
-        names 
+        names
     except EOFError:
         ...
