@@ -9,3 +9,4 @@ figlet.getFonts()
 figlet.setFont(font=f)
 
 print(figlet.renderText(s))
+c
