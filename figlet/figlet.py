@@ -10,6 +10,7 @@ if len(sys.argv) == 1:
     s = input("Input: ")
     f = random.choice(font_List)
     figlet.setFont(font=f)
+    print("Output:")
     print(figlet.renderText(s))
 elif len(sys.argv) == 3:
     # @ promt user chooses font
