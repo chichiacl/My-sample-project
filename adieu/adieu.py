@@ -1,5 +1,6 @@
 import inflect
 
+p = inflect.engine()
 names = []
 while True:
     try:
