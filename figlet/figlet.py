@@ -18,7 +18,7 @@ elif len(sys.argv) == 3:
     if (sys.argv[1] != "-f") or (sys.argv[1] != "--font") :
         print("Invalid usage")
         sys.exit
-    if sys.argv[2] not in font_list:
+    if sys.argv[2] not in font_List:
         print("Invalid usage")
         sys.exit
     figlet.setFont(font = sys.argv[2])
