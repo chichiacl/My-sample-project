@@ -1,9 +1,6 @@
 import requests
 
-try:
-    ...
-except ValueError:
-    
+
 
 
 
