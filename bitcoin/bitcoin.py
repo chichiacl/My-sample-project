@@ -2,9 +2,8 @@ import requests
 import sys
 
 if len(sys.argv) <= 1:
-    #noting inputed
-    ...
-    elif
+    raise IndexError("Missing command-line argument")
+
 
 
 
