@@ -1,3 +1,4 @@
+'''
 string = input("Greeting: ")
 greeting = string.strip().split()
 greeting = greeting[0]
@@ -7,5 +8,15 @@ elif greeting[0].lower() == 'h':
     print("$20")
 else:
     print("$100")
+'''
+
+def main():
+    string = input("Greeting: ")
 
 
+def value(greeting):
+    ...
+
+
+if __name__ == "__main__":
+    main()
