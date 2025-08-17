@@ -1,5 +1,5 @@
 import pytest
-from twttr.py import shorten
+from twttr import shorten
 
 def test_shorten():
     assert shorten("Twitter") == "Twttr"
