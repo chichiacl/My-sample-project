@@ -17,7 +17,10 @@ def test_hundred():
     assert value("123! client 123!") == 100
 
 def test_incorrect_value():
-    with pytest:raise(TypeError) :
+    with pytest:
+        raise(TypeError)
+
+
 
 
 
