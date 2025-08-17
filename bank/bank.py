@@ -8,7 +8,7 @@ def value(greeting):
     result = result[0]
     if result.lower() == "hello" or result.lower() == "hello," or result.lower() == "hello!":
         return 0
-    elif result[0].lower() == 'h':
+    elif result[0].lower() == 'v':
         return 20
     else:
         return 100
