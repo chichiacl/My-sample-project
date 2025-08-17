@@ -1,7 +1,7 @@
 def main():
     input = input("Input: ")
-    shorten(input)
-
+    result = shorten(input)
+    print("Output:", result)
 
 def shorten(word):
     output = ""
@@ -10,8 +10,7 @@ def shorten(word):
         None
     else:
          output = output + v
-print("Output:",output)
-
+return output
 
 if __name__ == "__main__":
     main()
