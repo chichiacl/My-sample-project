@@ -2,20 +2,19 @@ from bank import value
 import pytest
 
 def test_hello():
+    assert value("HELLO") == 0
     assert value("hello") == 0
-    assert value("Hello") == 0
-    assert value("HELLO there") == 0
-    assert value("hello!") == 0
-    assert value("hello, world") == 0
+    assert value("Hello, world") == 0
+    assert value("Hello!") == 0
 
 def test_h():
-    assert value("hi") == 20
-    assert value("hey there") == 20
-    assert value("howdy") == 20
-    assert value("Hmmm") == 20
+    assert value("Heyy.") == 20
+    assert value("HEY!") == 20
+    assert value("hEY, you.") == 20
+    assert value("hey") == 20
 
 def test_not_h():
-    assert value("What's up") == 100
-    assert value("Good morning") == 100
-    assert value("Bye") == 100
-    assert value("Ahoy") == 100
+    assert value("Welcome, you") == 20
+    assert value("123") == 20
+    assert value("GOOD DAY!") == 20
+    assert value("Aye") == 20
