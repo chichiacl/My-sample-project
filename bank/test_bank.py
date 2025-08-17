@@ -15,3 +15,5 @@ def test_rest():
     assert value("What's happening?") == 100
     assert value("Welcome to the bank.") == 100
     assert value("123! client 123!") == 100
+
+
