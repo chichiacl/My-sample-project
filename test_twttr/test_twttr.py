@@ -4,5 +4,4 @@ from twttr import shorten
 def test_shorten():
     assert shorten("Twitter") == "Twitter"
     assert shorten("What's your name?") == "Wht's yr nm?"
-    assert()
-
+    assert shoretn("CS50") == "CS50"
