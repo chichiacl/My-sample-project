@@ -1,2 +1,2 @@
-from twttr import shorten
 import pytest
+from twttr import shorten
