@@ -6,9 +6,9 @@ def main():
 def value(greeting):
     result = greeting.strip().split()
     result = result[0]
-    if result.lower() == "hello" or result.lower() == "hello," or result.lower() == "hello!":
+    if result == "hello" or result == "hello," or result == "hello!":
         return 0
-    elif result[0].lower() == 'h':
+    elif result[0] == 'h':
         return 20
     else:
         return 100
