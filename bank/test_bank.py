@@ -14,7 +14,7 @@ def test_h():
     assert value("hey") == 20
 
 def test_not_h():
-    assert value("Welcome, you") == 20
-    assert value("123") == 20
-    assert value("GOOD DAY!") == 20
-    assert value("Aye") == 20
+    assert value("Welcome, you") == 100
+    assert value("123") == 100
+    assert value("GOOD DAY!") == 100
+    assert value("Aye") == 100
