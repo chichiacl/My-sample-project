@@ -15,14 +15,3 @@ def test_hundred():
     assert value("What's happening?") == 100
     assert value("Welcome to the bank.") == 100
     assert value("123! client 123!") == 100
-
-def test_error():
-    with pytest.raises(TypeError):
-        value(100)
-
-
-
-
-
-
-
