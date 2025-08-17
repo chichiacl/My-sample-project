@@ -10,7 +10,7 @@ def shorten(word):
         None
     else:
          output = output + v
-return output
+    return output
 
 if __name__ == "__main__":
     main()
