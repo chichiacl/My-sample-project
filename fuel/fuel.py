@@ -1,3 +1,23 @@
+def main():
+
+
+def convert(fraction):
+    if fraction.isalnum:
+        raise Valueerr
+
+
+
+def gauge(percentage):
+
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+"""
 while True:
     fraction = input("Fraction: ")
     try:
@@ -12,5 +32,5 @@ while True:
         break
     except (ValueError,ZeroDivisionError):
         print("",end="")
-
+"""
 

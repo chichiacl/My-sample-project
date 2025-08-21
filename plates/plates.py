@@ -6,17 +6,33 @@ def main():
         print("Invalid")
 
 
-def is_valid(p):
-       if len(p) < 2 or len(p) > 6: # correct length
+def is_valid(s):
+    if not s[0:2].isalpha():
         return False
 
-       if not p[:2].isalpha(): # first 2 chars letter
-            return False
+    if len(s) not in [2,3,4,5,6]:
+        return False
 
-        if not p.isalnum(): # no puncuation
-           return False
+    if not s.isalnum():
+        return False
 
-       for i in range(len(p))
+    bnumber = False
+    for n in s:
+        if n.isdigit():
+            if (int(n) == 0) and (bnumber == False):
+                return False
+            else:
+                bnumber = True
 
+    for n in s:
+        if n.isdigit():
+            number_index = s.find(n)
+            inumber = s[number_index:]
+            if not inumber.isdigit():
+                return False
+            
+    return True
 
-main()
+if __name__ == "__main__":
+    main()
+
